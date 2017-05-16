@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/Courses/COD/exp/MIPS-CPU-Verilog-master/TOP.xst" -ofn "E:/Courses/COD/exp/MIPS-CPU-Verilog-master/TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-5 TOP.ngc TOP.ngd  
