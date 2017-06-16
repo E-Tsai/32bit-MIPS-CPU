@@ -7,5 +7,4 @@ module SignExtend(
 	parameter [31:0] P = 32'h0;
 	
 	assign signedimm = (imm[15] == 1)?(imm + N):(imm + P);
-
 endmodule

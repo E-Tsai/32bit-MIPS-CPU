@@ -1,23 +1,16 @@
 ISim log file
-Running: C:\Users\zzh1996\Desktop\COD\MIPS_FINAL\test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/test_isim_beh.wdb 
+Running: E:\Courses\COD\exp\pipeline\MIPS\add_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Courses/COD/exp/pipeline/MIPS/add_test_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
+WARNING:  For instance uut/Insts/, width 10 of formal port a is not equal to width 32 of actual constant.
+WARNING:  For instance uut/dataram/, width 7 of formal port a is not equal to width 32 of actual constant.
+WARNING: For instance uut/read_mux/, width 32 of formal port l is not equal to width 16 of actual.
+WARNING: For instance uut/read_mux/, width 32 of formal port r is not equal to width 16 of actual.
+WARNING: File "E:/Courses/COD/exp/pipeline/MIPS/top.v" Line 12.  For instance uut/read_mux/, width 32 of formal port o is not equal to width 16 of actual signal READOUT.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
-# run 100000 ns
-Simulator is doing circuit initialization process.
-WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
-WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
-Finished circuit initialization process.
-# restart
-# run 1.00us
-Simulator is doing circuit initialization process.
-WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
-WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
-Finished circuit initialization process.
-# restart
-# run 100us
+# run 1000 ns
 Simulator is doing circuit initialization process.
 WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
 WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.

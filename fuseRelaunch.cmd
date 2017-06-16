@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/test_isim_beh.exe" -prj "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/test_beh.prj" "work.test" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Courses/COD/exp/pipeline/MIPS/add_test_isim_beh.exe" -prj "E:/Courses/COD/exp/pipeline/MIPS/add_test_beh.prj" "work.add_test" "work.glbl" 

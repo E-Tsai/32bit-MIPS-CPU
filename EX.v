@@ -30,11 +30,11 @@ module EX(
 	wire [31:0]SrcBE;
 
 	ALU alu(SrcAE,SrcBE,ALUControlE,ALUOutE);
-	
-	assign SrcAE_=ForwardAE==0?RD1E:ForwardAE==1?ResultW:ALUOutM;
-	assign WriteDataE=ForwardBE==0?RD2E:ForwardBE==1?ResultW:ALUOutM;
-	assign SrcBE=ALUSrcE?SignImmE:WriteDataE;
-	assign WriteRegE=RegDstE?RdE:RtE;
+	//////////////////////////////////////////////////////////////////////////////
+	assign SrcAE_ = (ForwardAE == 0) ? RD1E : ((ForwardAE==1) ? ResultW : ALUOutM);
+	assign WriteDataE = ForwardBE == 0 ? RD2E : ForwardBE == 1 ? ResultW : ALUOutM;
+	assign SrcBE = ALUSrcE ? SignImmE : WriteDataE;
+	assign WriteRegE = RegDstE ? RdE : RtE;
 	assign SrcAE=ALUASrcE?shamtE:SrcAE_;
 
 endmodule
