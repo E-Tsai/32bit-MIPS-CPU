@@ -190,9 +190,5 @@ TJR:
       add   $t3, $t1, $t1
       sw    $t3, 0($t0)
 </code>
-## 实验结果
-<img src=".\pics\21.jpg" />
-<img src=".\pics\22.jpg" />    
-## 总结
-加深了对CPU和流水线的理解，以及冲突处理和分支预测。  
+
 
